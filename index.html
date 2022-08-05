@@ -14,11 +14,11 @@
     <p>informe o tamanho da caixa para darmos os devidos descontos de cobertura no corpo da viga, ou se preferir informe a cobertura de concreto desejada</p>
   </div>
 
-  <div class="container">
+  <div class="container text-center ">
     <!--===========section================-->
-    <section class="d-inline-block float-left  sct m-2" >
+    <section class="d-block float-left  sct m-2" >
     
-      <article  id="art">
+      <article  id="art" class="container">
         <h2>tamanho da Viga:</h2>
           <input class="ml-2" type="number" name="body" id="tamanhoviga">
           <h2>Possui Esquadro dos dois lados?</h2>
@@ -27,12 +27,16 @@
           <h2>Esquadro, Dobra ou Ancoragem:</h2>
           <input class="ml-2" type="number" name="esquadro" id="tamanhoesq">
       </article>
-    </section>
+    
     <!-- ===============aside============= -->
-      <aside class="d-inline-block float-rigth asd m-2 " id="res1">
-        <p class="h1 p-3 mb-2 bg-success text-white">Preencha os dados para ver o resultado </p>
+      <aside class="d-block float-rigth container m-2 " id="res1">
+        <p class="h1 p-3 mb-2 w-25   text-muted">Preencha os dados para ver o resultado </p>
       </aside>
+    </section>
       <button type="button" class="btn btn-primary btn-lg btn-block" id="res" > Resultado</button>
+      <div id="" class="">
+        [aqui vira os dados dos cortes vindos do local storage]
+      </div>
   </div>
 
 

@@ -23,13 +23,20 @@ $('#res').click(() => {
     var esquad = esquadro * 2;
     var total = tmn + esquad
     var tot = (total / 100).toFixed(2)
-    $('#res1').html(`<p class='h1 p-3 mb-2 bg-success text-white'>Você deve cortar o(s) ferro(s) com: ${tot}metros.</p>`)
+    $('#res1').html(`
+    <p class='h1 p-3 mb-2 container text-muted'>
+    Você deve cortar o(s) ferro(s) com: ${tot}metros.
+    </p>`)
   } else {
     var tmn = tamanhoviga - 6;
     var esquad = esquadro * 1;
     var total = tmn + esquad
     var tot = (total / 100).toFixed(2)
-    $('#res1').html(`<p class='h1 p-3 mb-2 bg-success text-white'>Você deve cortar o(s) ferro(s) com: ${tot}metros.</p>`)
+    $('#res1').html(`
+    <p class='h1 p-3 mb-2 container text-muted'>
+    Você deve cortar o(s) ferro(s) com: ${tot}metros.
+    </p>
+    `)
   }
 })
 $('#res').click(()=>{
